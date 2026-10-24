@@ -222,3 +222,5 @@ __marimo__/
 
 # Custom
 agent_data/
+outputs/
+unsloth_compiled_cache/

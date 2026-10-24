@@ -1,20 +1,320 @@
-{"text":"My laptop screen keeps flickering after I dropped it yesterday. There is a crack near the hinge, and I have a presentation in an hour."}
-{"text":"I can't get into the payroll portal since this morning. It says my password is wrong even after I reset it twice."}
-{"text":"The office Wi-Fi keeps disconnecting every few minutes on the second floor, but the wired computers seem fine."}
-{"text":"The printer in reception is showing a paper jam, but I removed all the paper I can see and restarted it."}
-{"text":"I'm furious that the shared drive disappeared again. Our whole team is blocked and the client files are due today."}
-{"text":"My new headset microphone is not detected by Teams, though I can hear everyone else without a problem."}
-{"text":"The VPN says connection timed out whenever I try to connect from home. It started after the laptop updated last night."}
-{"text":"I spilled coffee on my keyboard and now several keys are typing by themselves. Please help, I have reports to finish."}
-{"text":"The accounting application crashes whenever I export the monthly report to Excel."}
-{"text":"The meeting room display says no signal when I plug in my laptop with the HDMI cable."}
-{"text":"Our warehouse network is completely down and none of the scanners can reach the inventory system."}
-{"text":"I accidentally deleted a folder from my desktop. Is there a way to get it back? It contained some old notes."}
-{"text":"My laptop battery drains from full to empty in less than an hour, even when I close all my apps."}
-{"text":"The browser keeps redirecting me to a blank page when I open the benefits website."}
-{"text":"I am panicking because my computer is making a clicking noise and the screen just went blue with an error."}
-{"text":"Could someone add the new intern to the marketing team's shared calendar? No rush, they start next week."}
-{"text":"Emails to external customers are stuck in my outbox and haven't sent for the last 30 minutes."}
-{"text":"My desk phone has no dial tone. I checked the cable and tried another wall jack."}
-{"text":"The latest design software update removed the font menu we use, and I can't finish the brochure."}
-{"text":"Several people on the third floor say video calls are freezing, but regular web browsing works."}
+{"text": "My laptop screen keeps flickering after I dropped it yesterday. There is a crack near the hinge, and I have a presentation in an hour."}
+{"text": "I can't get into the payroll portal since this morning. It says my password is wrong even after I reset it twice."}
+{"text": "The office Wi-Fi keeps disconnecting every few minutes on the second floor, but the wired computers seem fine."}
+{"text": "The printer in reception is showing a paper jam, but I removed all the paper I can see and restarted it."}
+{"text": "I'm furious that the shared drive disappeared again. Our whole team is blocked and the client files are due today."}
+{"text": "My new headset microphone is not detected by Teams, though I can hear everyone else without a problem."}
+{"text": "The VPN says connection timed out whenever I try to connect from home. It started after the laptop updated last night."}
+{"text": "I spilled coffee on my keyboard and now several keys are typing by themselves. Please help, I have reports to finish."}
+{"text": "The accounting application crashes whenever I export the monthly report to Excel."}
+{"text": "The meeting room display says no signal when I plug in my laptop with the HDMI cable."}
+{"text": "Our warehouse network is completely down and none of the scanners can reach the inventory system."}
+{"text": "I accidentally deleted a folder from my desktop. Is there a way to get it back? It contained some old notes."}
+{"text": "My laptop battery drains from full to empty in less than an hour, even when I close all my apps."}
+{"text": "The browser keeps redirecting me to a blank page when I open the benefits website."}
+{"text": "I am panicking because my computer is making a clicking noise and the screen just went blue with an error."}
+{"text": "Could someone add the new intern to the marketing team's shared calendar? No rush, they start next week."}
+{"text": "Emails to external customers are stuck in my outbox and haven't sent for the last 30 minutes."}
+{"text": "My desk phone has no dial tone. I checked the cable and tried another wall jack."}
+{"text": "The latest design software update removed the font menu we use, and I can't finish the brochure."}
+{"text": "Several people on the third floor say video calls are freezing, but regular web browsing works."}
+{"text": "{Username}: Can't connect to Wi-Fi on my work laptop"}
+{"text": "{Username}: Printer won't print in color, only grayscale"}
+{"text": "{Username}: Laptop fan is making a loud noise and slowing down"}
+{"text": "{Username}: Microsoft Office keeps crashing whenever I try to open Word"}
+{"text": "{Username}: Can't access shared drive from home network"}
+{"text": "{Username}: Email client is not syncing properly with Exchange server"}
+{"text": "{Username}: Desktop computer won't turn on after power outage"}
+{"text": "{Username}: VPN connection drops randomly throughout the day"}
+{"text": "{Username}: Antivirus software is blocking legitimate program updates"}
+{"text": "{Username}: Network printer has been offline for hours"}
+{"text": "{Username}: Can't open PDF files due to Adobe Acrobat issue"}
+{"text": "{Username}: Firewall rules not allowing incoming traffic on specific port"}
+{"text": "{Username}: Can't send or receive emails using Outlook client"}
+{"text": "{Username}: Slow performance on Windows 10 machine, possibly RAM-related"}
+{"text": "{Username}: Local backup of data is failing with error message"}
+{"text": "{Username}: Random system crashes without any apparent cause"}
+{"text": "{Username}: Employee's user account not syncing properly across devices"}
+{"text": "{Username}: Network drive mapping issues after IT policy change"}
+{"text": "{Username}: Can't connect to company intranet site on mobile device"}
+{"text": "{Username}: Critical security patch needs to be applied ASAP"}
+{"text": "Server room is at 90% capacity, need to clear out some old equipment ASAP"}
+{"text": "Laptop won't turn on after being dropped on floor during meeting"}
+{"text": "VPN connection dropping every hour, affecting remote workers"}
+{"text": "Can't access shared drive from desktop due to permission issues"}
+{"text": "New employee's workstation has slow internet speeds, can we upgrade their connection?"}
+{"text": "Printer jamming frequently, need someone to take a look at it"}
+{"text": "Outdated software on several machines causing security concerns, when can we update?"}
+{"text": "Network switch is on fire (not literally, but error message says so)"}
+{"text": "Employee's email account was hacked, need help securing it ASAP"}
+{"text": "Can't connect to Wi-Fi on campus due to network congestion"}
+{"text": "New employee needs assistance setting up their work laptop"}
+{"text": "Server running low on disk space, need to implement backup plan"}
+{"text": "Printer not recognizing USB drive for printing documents"}
+{"text": "Employee's computer freezing every hour, affecting productivity"}
+{"text": "Need help migrating data from old server to new one this weekend"}
+{"text": "Phone system is not ringing through to extensions, causing missed calls"}
+{"text": "Can't install software updates due to lack of admin privileges"}
+{"text": "Network cable was chewed by dog, need replacement ASAP"}
+{"text": "New employee's workstation has faulty keyboard and mouse"}
+{"text": "Company website is down, can we get it back up ASAP?"}
+{"text": "Desktop won't turn on after power outage"}
+{"text": "Users unable to access shared drive due to permissions issue"}
+{"text": "Internet connectivity lost at main office"}
+{"text": "Printer paper jam causing significant delay in printing reports"}
+{"text": "Server logs showing frequent crashes"}
+{"text": "User account locked out for no apparent reason"}
+{"text": "Firmware update failed on network switch"}
+{"text": "Software license expired for CRM system"}
+{"text": "Email client not syncing with Exchange server"}
+{"text": "Network cable damaged in data center"}
+{"text": "Laptop screen flickering randomly"}
+{"text": "Remote access VPN connection dropped frequently"}
+{"text": "Database query taking excessively long to execute"}
+{"text": "Backup schedule not running as expected"}
+{"text": "Printer driver update causing issues with document printing"}
+{"text": "User reporting slow performance on new workstation"}
+{"text": "Network security audit showing vulnerabilities in OS"}
+{"text": "Software installation failed due to missing dependencies"}
+{"text": "User's personal files deleted from shared drive"}
+{"text": "Internet explorer crashing frequently"}
+{"text": "PC not turning on, no power button light"}
+{"text": "Cannot connect to Wi-Fi network, tried restarting router"}
+{"text": "Laptop screen is cracked, cannot use"}
+{"text": "Word document will not save, keeps giving error message"}
+{"text": "Network printer not printing, getting 'out of paper' error"}
+{"text": "Company email account locked out, unable to reset password"}
+{"text": "PC freezing randomly, very slow performance"}
+{"text": "Unable to install new software due to compatibility issues"}
+{"text": "Smartphone screen is black, cannot charge"}
+{"text": "Server running out of disk space, need urgent assistance"}
+{"text": "Printer ink levels are low, but not sure how to check them"}
+{"text": "Cannot access VPN from home network"}
+{"text": "Laptop keyboard is sticky, making typing difficult"}
+{"text": "Email account has been hacked, spam messages filling inbox"}
+{"text": "Unable to connect external hard drive to PC"}
+{"text": "Network connection dropping frequently"}
+{"text": "Windows update failed, cannot update OS"}
+{"text": "PC audio not working, cannot hear any sounds"}
+{"text": "Cannot print documents due to driver issues"}
+{"text": "Server software crashing repeatedly"}
+{"text": "User reports slow login times due to high CPU usage on company server."}
+{"text": "Desktop computer won't turn on after power surge during storm."}
+{"text": "Company email account cannot send emails, only receive."}
+{"text": "Printer jammed with multiple pages stuck inside paper tray."}
+{"text": "Remote employee's VPN connection keeps dropping."}
+{"text": "Server room temperature is 90 degrees Fahrenheit and rising."}
+{"text": "Windows update failed to install on several computers."}
+{"text": "User reports inconsistent internet speeds on home network."}
+{"text": "Computer fan making loud noise and vibrating on desk."}
+{"text": "Email client crashing frequently with 'server not found' error."}
+{"text": "Network printer not printing in color, only monochrome."}
+{"text": "Company firewall blocking access to essential business app."}
+{"text": "Employee's laptop screen shattered after coffee spill."}
+{"text": "Server running out of disk space due to large log files."}
+{"text": "User reports frequent blue screens on Windows 10 machine."}
+{"text": "Internet router lights blinking rapidly and won't sync."}
+{"text": "Database connection timed out, unable to retrieve data."}
+{"text": "Company Wi-Fi network not accessible from guest room."}
+{"text": "Printer installation failed on new employee's computer."}
+{"text": "User reports inconsistent audio quality on Zoom calls."}
+{"text": "Printer not working on 3rd floor workstation, error message says 'out of ink' but cartridge is full."}
+{"text": "My computer's screen went black during a meeting, now it won't turn back on."}
+{"text": "I'm experiencing frequent disconnections from the Wi-Fi network in my area."}
+{"text": "The VPN connection keeps dropping every hour or so."}
+{"text": "Can't access shared drive from my laptop, getting an 'access denied' error."}
+{"text": "My keyboard is stuck with keys not registering properly."}
+{"text": "We've had multiple reports of the copier jamming today."}
+{"text": "I need help resetting a user's password ASAP, they're on deadline for a project."}
+{"text": "Our website is down, customers are complaining."}
+{"text": "The server room temperature is running 5 degrees above normal."}
+{"text": "Users in the marketing department can't access their email accounts."}
+{"text": "My monitor is flickering like crazy, it's distracting me."}
+{"text": "I've tried restarting my computer but the issue persists."}
+{"text": "One of our remote workers' laptops won't connect to the company network."}
+{"text": "The antivirus software on this workstation is expired and I need an update."}
+{"text": "Someone has set a static IP address for their machine without permission."}
+{"text": "I'm getting a 'low disk space' warning on my desktop, how do I free up space?"}
+{"text": "A user's phone isn't syncing with our calendar system."}
+{"text": "The office network speed is extremely slow today."}
+{"text": "There was a power outage this morning and now the printer won't work."}
+{"text": "Printer not printing double-sided"}
+{"text": "Microsoft Office crashing on startup"}
+{"text": "Server downtime causing inventory system to fail"}
+{"text": "Cannot access shared drive due to permission issues"}
+{"text": "Computer fan making loud noise"}
+{"text": "Network connection dropped randomly"}
+{"text": "Error message when trying to update software"}
+{"text": "User account locked out and cannot log in"}
+{"text": "Laptop screen not turning on"}
+{"text": "SQL database corruption causing system failure"}
+{"text": "Wireless router signal strength extremely weak"}
+{"text": "Adobe Creative Cloud not syncing files properly"}
+{"text": "Cannot access VPN from remote location"}
+{"text": "Company email server down for maintenance"}
+{"text": "Desktop computer making strange grinding noise"}
+{"text": "Internet Explorer not displaying website content correctly"}
+{"text": "Network printer not recognizing paper jams"}
+{"text": "User's personal files deleted by mistake"}
+{"text": "Computer running extremely slow and unresponsive"}
+{"text": "Server crash causing entire system to fail"}
+{"text": "Printer not working on second floor"}
+{"text": "Cannot access email from my laptop at home"}
+{"text": "Network connection dropping every hour"}
+{"text": "Computer freezing randomly throughout the day"}
+{"text": "User's Outlook account password reset needed ASAP"}
+{"text": "Wi-Fi not available in conference room"}
+{"text": "One of our servers is running low on disk space"}
+{"text": "Can't print to network printer from Mac"}
+{"text": "Internet not working on mobile devices at HQ"}
+{"text": "User reports slow performance on their Windows 10 machine"}
+{"text": "Unable to log into VPN due to incorrect credentials"}
+{"text": "Error message when trying to open Microsoft Office"}
+{"text": "One of our printers is jammed and needs repair"}
+{"text": "Users complaining about poor internet speeds in the break room"}
+{"text": "Can't access shared drive from remote location"}
+{"text": "One of our firewalls is not responding to ping requests"}
+{"text": "Need help setting up new employee's work laptop"}
+{"text": "User reports receiving strange emails with malicious attachments"}
+{"text": "Cannot connect to our company database remotely"}
+{"text": "Error message when trying to install software update"}
+{"text": "Server down. Urgent."}
+{"text": "Cannot connect to Wi-Fi at home."}
+{"text": "Laptop screen is cracked and won't turn on."}
+{"text": "Microsoft Office installation failed. Trying for 2 hours."}
+{"text": "Network printer not detected by Windows."}
+{"text": "Can't access shared drive from Mac."}
+{"text": "Employee's email account locked out due to password reset attempt."}
+{"text": "Company website not loading on mobile devices."}
+{"text": "Printer paper jammed, stuck since morning."}
+{"text": "Error message 'Cannot connect to database' on web app."}
+{"text": "Windows 10 update taking forever. Please help!"}
+{"text": "VPN connection dropping randomly."}
+{"text": "Desktop computer has blue screen of death."}
+{"text": "Network congestion causing slow internet speeds."}
+{"text": "Cannot open Excel file due to corrupted data."}
+{"text": "Phone's charging port broken, cannot charge phone."}
+{"text": "Cannot access internal network drive from Windows PC."}
+{"text": "Laptop battery not holding charge. Discharge in 30 minutes."}
+{"text": "Google Chrome extension causing browser crash repeatedly."}
+{"text": "Cannot connect to corporate email server via Outlook."}
+{"text": "Printer not printing in color"}
+{"text": "Cannot login to email on mobile app"}
+{"text": "Desktop screen flickering constantly"}
+{"text": "Server down for entire department"}
+{"text": "Laptop not charging while plugged in"}
+{"text": "Internet connection dropping frequently"}
+{"text": "Spam emails flooding employee inbox"}
+{"text": "Network drive inaccessible from home PC"}
+{"text": "Microsoft Office update failed multiple times"}
+{"text": "Router reset did not resolve issue"}
+{"text": "Employee's laptop screen is cracked and unusable"}
+{"text": "VPN connection keeps dropping for remote worker"}
+{"text": "IT department cannot access network shares"}
+{"text": "Computer freezing randomly after startup"}
+{"text": "Printer paper tray always jamming"}
+{"text": "Cannot connect to company Wi-Fi from public hotspot"}
+{"text": "Software update causing program errors"}
+{"text": "Network bandwidth extremely slow during peak hours"}
+{"text": "Employee's computer has malware warning on login screen"}
+{"text": "Server room temperature is too high"}
+{"text": "Printer not printing in color"}
+{"text": "Computer is freezing every 10 minutes"}
+{"text": "Unable to access shared drive on network"}
+{"text": "Internet connection is very slow today"}
+{"text": "Laptop keyboard is sticky and unresponsive"}
+{"text": "Server crashed overnight, files lost"}
+{"text": "Can't connect to Wi-Fi with new laptop"}
+{"text": "Software update failed, program won't launch"}
+{"text": "Network printer not recognizing USB device"}
+{"text": "Employee's email account hacked and spamming"}
+{"text": "Computer screen flickering, causing eye strain"}
+{"text": "Unable to print to network printer from Mac"}
+{"text": "Website is down for our external customers"}
+{"text": "Can't access company database due to permissions"}
+{"text": "Laptop battery not holding charge as long"}
+{"text": "Software install failed, error code 1234"}
+{"text": "Network congestion causing video conferencing issues"}
+{"text": "Employee's computer infected with malware, needs scan"}
+{"text": "Unable to connect to VPN from remote location"}
+{"text": "Server backup failed, data at risk of loss"}
+{"text": "Printer is jammed again."}
+{"text": "Can't connect to VPN."}
+{"text": "Desktop shortcut for MS Office keeps disappearing."}
+{"text": "Network printer not found on laptop."}
+{"text": "Server crashed during peak hours, lost data."}
+{"text": "User reports slow login times."}
+{"text": "Windows 10 update failed."}
+{"text": "Cannot access shared drive from Mac."}
+{"text": "Firewall is blocking incoming traffic."}
+{"text": "Employee's email account is locked out."}
+{"text": "Error message when trying to install software."}
+{"text": "Wired internet connection dropped suddenly."}
+{"text": "Printer driver not installing correctly."}
+{"text": "Users experiencing random freezing of applications."}
+{"text": "Can't see shared folder on network drive."}
+{"text": "Failed login attempts are showing up on security logs."}
+{"text": "Desktop shortcut for Chrome is missing."}
+{"text": "Computer won't turn off, stuck in restart loop."}
+{"text": "Wi-Fi connection keeps dropping signal."}
+{"text": "Network congestion causing slow internet speeds."}
+{"text": "Printer won't turn on."}
+{"text": "Laptop freezes after 10 minutes of use."}
+{"text": "Email not syncing with phone."}
+{"text": "Server crashed at 8pm last night."}
+{"text": "Unable to connect to Wi-Fi on laptop."}
+{"text": "Software update failed, error code 1234."}
+{"text": "Network connection dropped multiple times today."}
+{"text": "Desktop won't boot up past login screen."}
+{"text": "Microsoft Office won't install properly."}
+{"text": "IP address not being assigned correctly."}
+{"text": "Computer suddenly restarted while in use."}
+{"text": "Router is overheating and making a strange noise."}
+{"text": "Error message on website: 'Internal Server Error'."}
+{"text": "Email account locked out due to incorrect password entry."}
+{"text": "Word document will not open, error code 4567."}
+{"text": "Laptop's battery won't charge properly."}
+{"text": "Server performance slowing down significantly over past week."}
+{"text": "Unable to print from any device on network."}
+{"text": "Computer freezing randomly throughout day."}
+{"text": "VPN connection not working as expected."}
+{"text": "Laptop won't turn on"}
+{"text": "Can't connect to Wi-Fi on my iPhone"}
+{"text": "Software update failed for Adobe Photoshop"}
+{"text": "Printer jammed and won't print anything"}
+{"text": "Lost internet connection at home"}
+{"text": "Computer keeps crashing with blue screen of death"}
+{"text": "Email account locked out due to too many login attempts"}
+{"text": "Forgot password for SharePoint site"}
+{"text": "Network drive not accessible from work computer"}
+{"text": "Cannot install new printer driver on Windows 10"}
+{"text": "Phone app is not syncing with calendar"}
+{"text": "External hard drive not recognized by computer"}
+{"text": "Can't log in to VPN due to certificate issue"}
+{"text": "Office software license expired and won't activate"}
+{"text": "Network connection dropping randomly at office"}
+{"text": "Can't print to network printer from Mac"}
+{"text": "Error message when trying to access online banking"}
+{"text": "Computer running extremely slow after installing new software"}
+{"text": "Unable to connect to corporate email server"}
+{"text": "Internet not working on work computer after reboot"}
+{"text": "Printer is not printing on second floor"}
+{"text": "Cannot connect to wireless network at home"}
+{"text": "Blue screen of death after Windows update"}
+{"text": "Email not syncing across devices"}
+{"text": "Network drive access denied for finance team"}
+{"text": "Laptop keyboard not registering keystrokes"}
+{"text": "Server 2012 R2 not starting up"}
+{"text": "IP address conflict on local network"}
+{"text": "Microsoft Office installation failed"}
+{"text": "Security software alerting false positives"}
+{"text": "VPN connection dropping frequently"}
+{"text": "Desktop freezing when loading Excel files"}
+{"text": "Firewall rules not applying to remote users"}
+{"text": "Exchange server running low on disk space"}
+{"text": "Printer ink levels not updating in print queue"}
+{"text": "Remote access restrictions blocking legitimate traffic"}
+{"text": "AD group membership not syncing with AWS SSO"}
+{"text": "Local account login issues on Windows 10"}
+{"text": "Network congestion causing slow internet speeds"}
+{"text": "SQL database corruption detected by backup software"}

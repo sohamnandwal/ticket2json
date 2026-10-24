@@ -1,0 +1,5 @@
+datasets
+lm-format-enforcer
+transformers>=4.57,<5
+trl
+unsloth

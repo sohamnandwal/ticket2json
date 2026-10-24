@@ -1,3 +1,4 @@
+import argparse
 import json
 import logging
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
@@ -5,6 +6,7 @@ from pathlib import Path
 
 from ticket_schema import (
     DEFAULT_MODEL,
+    OLLAMA_HOST,
     OllamaError,
     build_prompt,
     call_ollama,
@@ -13,6 +15,7 @@ from ticket_schema import (
 ROOT = Path(__file__).resolve().parent.parent
 UI = ROOT / "ui"
 MAX_REQUEST_BYTES = 16_384
+EXTRACT_TICKET = None
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
 
@@ -49,7 +52,9 @@ class TicketHandler(BaseHTTPRequestHandler):
             text = payload.get("text") if isinstance(payload, dict) else None
             if not isinstance(text, str) or not text.strip():
                 raise ValueError("Provide a non-empty ticket in the text field.")
-            result = call_ollama(build_prompt(text.strip()), model=DEFAULT_MODEL)
+            if EXTRACT_TICKET is None:
+                raise RuntimeError("Ticket extractor was not initialized.")
+            result = EXTRACT_TICKET(text.strip())
         except (UnicodeDecodeError, json.JSONDecodeError, ValueError) as error:
             self._send(
                 400,
@@ -57,7 +62,7 @@ class TicketHandler(BaseHTTPRequestHandler):
                 "application/json; charset=utf-8",
             )
             return
-        except OllamaError as error:
+        except (OllamaError, RuntimeError) as error:
             logging.error("Ticket extraction failed: %s", error)
             self._send(
                 502,
@@ -76,10 +81,43 @@ class TicketHandler(BaseHTTPRequestHandler):
 
 
 if __name__ == "__main__":
-    address = ("127.0.0.1", 8000)
+    parser = argparse.ArgumentParser(description="Serve the Ticket2JSON web UI and API.")
+    parser.add_argument("--backend", choices=("ollama", "finetuned"), default="ollama")
+    parser.add_argument("--model", default=DEFAULT_MODEL, help="Ollama model name.")
+    parser.add_argument("--host", default=OLLAMA_HOST, help="Ollama API base URL.")
+    parser.add_argument(
+        "--base-model",
+        default=None,
+        help="Optional Hugging Face base model override; defaults to the adapter's base.",
+    )
+    parser.add_argument(
+        "--adapter",
+        type=Path,
+        default=ROOT / "outputs" / "qwen2.5-3b-ticket2json-lora",
+    )
+    parser.add_argument("--port", type=int, default=8000)
+    args = parser.parse_args()
+    if args.backend == "ollama":
+        EXTRACT_TICKET = lambda text: call_ollama(
+            build_prompt(text), model=args.model, host=args.host
+        )
+        backend_description = f"Ollama model {args.model} at {args.host}"
+    else:
+        try:
+            from finetuned_backend import load_finetuned_extractor
+
+            EXTRACT_TICKET = load_finetuned_extractor(
+                model_name=args.base_model,
+                adapter_path=args.adapter,
+            )
+        except RuntimeError as error:
+            parser.exit(1, f"Cannot load fine-tuned model: {error}\n")
+        backend_description = f"fine-tuned adapter {args.adapter}"
+
+    address = ("127.0.0.1", args.port)
     server = ThreadingHTTPServer(address, TicketHandler)
     logging.info("Ticket2JSON available at http://%s:%s", *address)
-    logging.info("Using Ollama model %s at http://127.0.0.1:11434", DEFAULT_MODEL)
+    logging.info("Using %s", backend_description)
     try:
         server.serve_forever()
     except KeyboardInterrupt:
